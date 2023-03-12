@@ -1,26 +1,22 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/starwars', { useNewUrlParser: true });
-
-
-
+mongoose.connect('mongodb://localhost:27017/myapp', { useNewUrlParser: true });
 const Schema = mongoose.Schema;
 
-// Define our character schema
-const CharacterSchema = new Schema({
-  name: { type: String, required: true },
-  birth_year: { type: String, required: true },
-  gender: { type: String, required: true },
-  height: String,
-  mass: String,
-  hair_color: String,
+const personSchema = new Schema({
+  edited: String,
+  name: String,
+  created: String,
+  gender: String,
   skin_color: String,
+  hair_color: String,
+  height: String,
   eye_color: String,
+  mass: String,
   homeworld: Number,
-  edited: Date,
-  created: Date
+  birth_year: String,
+  id: Number
 });
 
-// Create a character model
-const CharacterModel = mongoose.model('Character', CharacterSchema);
+const Person = mongoose.model('Person', personSchema);
 
-module.exports = CharacterModel;
+module.exports = Person;
