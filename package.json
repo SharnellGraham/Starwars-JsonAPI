@@ -1,0 +1,19 @@
+{
+  "name": "starwars-jsonapi",
+  "version": "1.0.0",
+  "description": "Building a JSON API ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SharnellGraham/Starwars-JsonAPI.git"
+  },
+  "author": "Sharnell Graham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SharnellGraham/Starwars-JsonAPI/issues"
+  },
+  "homepage": "https://github.com/SharnellGraham/Starwars-JsonAPI#readme"
+}
