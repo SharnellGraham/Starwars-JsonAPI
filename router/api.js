@@ -6,7 +6,7 @@ router.get('/people',function(req,res){
 });;
 
 
-router.post('/students', function(req, res){
+router.post('/people', function(req, res){
     res.send({
         type: 'POST',
         name: req.body.name,
@@ -14,10 +14,10 @@ router.post('/students', function(req, res){
     });
 });
 
-router.put('/students/:id', function(req, res){
+router.put('/people/:id', function(req, res){
     res.send({type: 'PUT'});
 });
 
-router.delete('/students/:id', function(req, res){
+router.delete('/people/:id', function(req, res){
     res.send({type: 'DELETE'});
 });
