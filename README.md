@@ -37,6 +37,8 @@ Optionally, run npm run test to verify that the endpoints are working.
 | ------ | ------------------| -------------  | -------------------------------------------------- |
 | GET    | /character	       | Read	         | Returns list of all Star Wars characters in DB.    |
 | GET    | /character/:name  | Read           | Retrieves character by name from DB.               |
+| GET    | /character/:id     |   Read       |   Get character by id 
+DB.                |
 | POST   | /character	       | Create	     | Creates a new character document in DB.            |
 | PATCH  | /character/:id    | Update	     | Updates character's document in DB for given Id.   |
 | DELETE | /character/:id    | Delete         | Deletes specifiec character from the database.     |
