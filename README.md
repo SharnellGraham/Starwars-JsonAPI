@@ -33,7 +33,7 @@ Optionally, run npm run test to verify that the endpoints are working.
 
 **Endpoints**
 
-##Characters##
+Characters
 HTTP     Method	Endpoint	         Description
 GET	    /character	            Returns list of all Star Wars characters in the database.
 GET	    /character/:name     	Retrieves character by name from the database.
@@ -41,7 +41,7 @@ POST	/character	            Creates a new character document in the database
 PATCH	/character/:id	        Updates a character document in the database with given Id.
 DELETE	/character/:id	        Deletes specified character document from the database.
 
-##Starships##
+Starships
 Endpoint	    HTTP Method	    CRUD Operation	Description
 /starships	     GET/Read	     Get all starships
 /starships/:name GET/Read	     Get a specific starship by name
