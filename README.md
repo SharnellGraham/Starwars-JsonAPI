@@ -37,8 +37,11 @@ Optionally, run npm run test to verify that the endpoints are working.
 | ------ | ------------------| -------------  | -------------------------------------------------- |
 | GET    | /character	       | Read	         | Returns list of all Star Wars characters in DB.    |
 | GET    | /character/:name  | Read           | Retrieves character by name from DB.               |
+<<<<<<< HEAD
 | GET    | /character/:id     |   Read       |   Get character by id 
 DB.                |
+=======
+>>>>>>> 024724c0fba822b27e9dc7065ff02257d47706ac
 | POST   | /character	       | Create	     | Creates a new character document in DB.            |
 | PATCH  | /character/:id    | Update	     | Updates character's document in DB for given Id.   |
 | DELETE | /character/:id    | Delete         | Deletes specifiec character from the database.     |
@@ -47,7 +50,10 @@ DB.                |
 | POST   | /starships	      | Create         | Add a new starship to the DB                       |
 | PATCH  | /starships/:id	  | Update	       | Update an existing starship with a matching ID      |
 | DELETE | /starships/:id   | Delete	       | Delete a specific starship document from the DB.    |
+<<<<<<< HEAD
 
+=======
+>>>>>>> 024724c0fba822b27e9dc7065ff02257d47706ac
 
 Testing
 Testing is done through Mocha, Chai and Supertest frameworks. You can see the results of the tests by running npm run tests after following the quickstart steps.
