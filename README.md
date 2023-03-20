@@ -1,11 +1,11 @@
-## Starwars-JsonAPI
-Create a REST API with full CRUD operations using MongoDb, Mongoose and Express.js.
+## Starwars-Jso
+Create a REST with full CRUD operations using MongoDb, Mongoose and Express.js.
 
 
 
 
 **Quick Start Guide**
-Clone the repository by running git clone https://github.com/SharnellGraham/Starwars-JsonAPI.git on your local machine terminal.
+Clone the repository by running git clone https://github.com/SharnellGraham/Starwars-Jso.git on your local machine terminal.
 Run npm install in the root folder of cloned directory to install all the dependencies.
 
 Use postman to run requests as needed.
@@ -33,32 +33,30 @@ Optionally, run npm run test to verify that the endpoints are working.
 
 **Endpoints**
 
-| Method | Endpoint	         | CRUD Operation | Description                                        |
-| ------ | ------------------| -------------  | -------------------------------------------------- |
-| GET    | /character	       | Read	         | Returns list of all Star Wars characters in DB.    |
-| GET    | /character/:name  | Read           | Retrieves character by name from DB.               |
-<<<<<<< HEAD
-| GET    | /character/:id     |   Read       |   Get character by id 
-DB.                |
-=======
->>>>>>> 024724c0fba822b27e9dc7065ff02257d47706ac
-| POST   | /character	       | Create	     | Creates a new character document in DB.            |
-| PATCH  | /character/:id    | Update	     | Updates character's document in DB for given Id.   |
-| DELETE | /character/:id    | Delete         | Deletes specifiec character from the database.     |
-| GET    | /starships	      | Read           | Get all starships in DB                            |
-| GET    | /starships/:name | Read           | Get a specific starship by it's name from DB        |
-| POST   | /starships	      | Create         | Add a new starship to the DB                       |
-| PATCH  | /starships/:id	  | Update	       | Update an existing starship with a matching ID      |
-| DELETE | /starships/:id   | Delete	       | Delete a specific starship document from the DB.    |
-<<<<<<< HEAD
+| Endpoint                       | HTTP Method | Summary                                             |
+|--------------------------------|-------------|-----------------------------------------------------|
+| /characters                | GET         | Retrieve list of all characters                     |
+| /characters/:id            | GET         | Retrieve details for character with specified ID    |
+| /characters/birth_years    | GET         | Retrieve all unique birth years from characters     |
+| /characters/names          | GET         | Retrieve an array of all names of characters        |
+| /characters/name/:name     | GET         | Retrieve character details by name                  |
+| /characters                | POST        | Create new character                                 |
+| /characters/:id            | PATCH       | Update existing character                            |
+| /characters/:id            | DELETE      | Delete character with specified ID                  |
+| /starships/               | GET         | Retrieve list of all starships                      |
+| /starships/hyperdrive/:hd  | GET         | Retrieve starship by hyperdrive rating               |
+| /starships/:id             | GET         | Retrieve details for starship with specified ID      |
+| /starships/:name           | GET         | Retrieve starship details by name                    |
+| /starships/               | POST        | Create new starship                                  |
+| /starships/:id             | PATCH       | Update existing starship                             |
+| /starships/:id             | DELETE      | Delete starship with specified ID                    |
 
-=======
->>>>>>> 024724c0fba822b27e9dc7065ff02257d47706ac
 
-Testing
+
+
 Testing is done through Mocha, Chai and Supertest frameworks. You can see the results of the tests by running npm run tests after following the quickstart steps.
 
-You can view Swagger documentation on http://localhost:3000/api-docs after following quick start steps.
+You can view Swagger documentation on http://localhost:3000-docs after following quick start steps.
 
 
 
