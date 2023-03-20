@@ -33,21 +33,18 @@ Optionally, run npm run test to verify that the endpoints are working.
 
 **Endpoints**
 
-Characters
-HTTP     Method	Endpoint	         Description
-GET	    /character	            Returns list of all Star Wars characters in the database.
-GET	    /character/:name     	Retrieves character by name from the database.
-POST	/character	            Creates a new character document in the database
-PATCH	/character/:id	        Updates a character document in the database with given Id.
-DELETE	/character/:id	        Deletes specified character document from the database.
-
-Starships
-Endpoint	    HTTP Method	    CRUD Operation	Description
-/starships	     GET/Read	     Get all starships
-/starships/:name GET/Read	     Get a specific starship by name
-/starships	     POST	         Create	Add a new starship
-/starships/:id	 PATCH/Update	 Update an existing starship by ID
-/starships/:id	 DELETE	         Delete
+| Method | Endpoint	         | CRUD Operation | Description                                        |
+| ------ | ------------------| -------------  | -------------------------------------------------- |
+| GET    | /character	       | Read	         | Returns list of all Star Wars characters in DB.    |
+| GET    | /character/:name  | Read           | Retrieves character by name from DB.               |
+| POST   | /character	       | Create	     | Creates a new character document in DB.            |
+| PATCH  | /character/:id    | Update	     | Updates character's document in DB for given Id.   |
+| DELETE | /character/:id    | Delete         | Deletes specifiec character from the database.     |
+| GET    | /starships	      | Read           | Get all starships in DB                            |
+| GET    | /starships/:name | Read           | Get a specific starship by it's name from DB        |
+| POST   | /starships	      | Create         | Add a new starship to the DB                       |
+| PATCH  | /starships/:id	  | Update	       | Update an existing starship with a matching ID      |
+| DELETE | /starships/:id   | Delete	       | Delete a specific starship document from the DB.    |
 
 Testing
 Testing is done through Mocha, Chai and Supertest frameworks. You can see the results of the tests by running npm run tests after following the quickstart steps.
