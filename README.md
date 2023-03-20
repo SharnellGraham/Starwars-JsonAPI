@@ -1,11 +1,11 @@
-## Starwars-Jso
+## Starwars-Json
 Create a REST with full CRUD operations using MongoDb, Mongoose and Express.js.
 
 
 
 
 **Quick Start Guide**
-Clone the repository by running git clone https://github.com/SharnellGraham/Starwars-Jso.git on your local machine terminal.
+Clone the repository by running git clone https://https://github.com/SharnellGraham/Starwars-JsonAPI on your local machine terminal.
 Run npm install in the root folder of cloned directory to install all the dependencies.
 
 Use postman to run requests as needed.
