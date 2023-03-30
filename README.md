@@ -60,7 +60,7 @@ You can view Swagger documentation on http://localhost:3000-docs after following
 
 
 
-##Contributing
+**_Contribute_**
 
 If you'd like to contribute to this project, you are more than welcome to! Please follow these guidelines:
 
