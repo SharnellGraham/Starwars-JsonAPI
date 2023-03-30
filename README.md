@@ -12,9 +12,8 @@ Use postman to run requests as needed.
 Optionally, run npm run test to verify that the endpoints are working.
 
  **Install dependencies**
-    `` npm install express ``
-    ``npm install i mongoose ``
-   `` npm install nodemon ``
+    ` npm install`
+  
 
  **Seed the data**
     - Navigate to seed.js file 
@@ -23,7 +22,7 @@ Optionally, run npm run test to verify that the endpoints are working.
  **Start server**
     - Navigate to index.js located in lib folder
 
-        `` nodemon index.js``
+        ` nodemon index.js`
      
 
  **Open browser**
