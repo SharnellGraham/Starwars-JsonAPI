@@ -12,18 +12,17 @@ Use postman to run requests as needed.
 Optionally, run npm run test to verify that the endpoints are working.
 
  **Install dependencies**
-    `` npm install express ``
-    ``npm install i mongoose ``
-   `` npm install nodemon ``
+     npm install
+  
 
  **Seed the data**
     - Navigate to seed.js file 
-        `` node seed.js `` 
+         node seed.js 
 
  **Start server**
     - Navigate to index.js located in lib folder
 
-        `` nodemon index.js``
+         nodemon index.js
      
 
  **Open browser**
@@ -61,7 +60,8 @@ You can view Swagger documentation on http://localhost:3000-docs after following
 
 
 
-**Contributing**
+**_Contribute_**
+
 If you'd like to contribute to this project, you are more than welcome to! Please follow these guidelines:
 
 Submit an issue describing the change you'd like to make.
