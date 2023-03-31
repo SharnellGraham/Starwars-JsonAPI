@@ -14,7 +14,7 @@ starshipRouter.get('/', async (req, res) => {
 })
 
 // Get starships by id
-starshipRouter.get('/:id', async (req, res) => {  try {
+starshipRouter.get('/id/:id', async (req, res) => {  try {
   const starship = await Starship.findById(req.params.id);
   if (!starship) {
     throw new Error('Starship not found');
